@@ -1,0 +1,25 @@
+{
+  "name": "Spotify™ Web Player",
+  "description": "Web player for Spotify",
+  "author": "Morni Colhkher",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "webview",
+    "browser",
+    "notifications"
+  ],
+  "app": {
+    "background": {
+      "scripts": [
+        "common.js"
+      ]
+    }
+  },
+  "icons": {
+    "16": "data/icons/16.png",
+    "48": "data/icons/48.png",
+    "128": "data/icons/128.png"
+  }
+}

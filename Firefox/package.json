@@ -1,0 +1,44 @@
+{
+  "title": "Spotify™ Web Player",
+  "name": "ispweb",
+  "version": "0.1.0",
+  "description": "Access to Spotify's Web player from within a toolbar panel",
+  "main": "common.js",
+  "author": "Morni Colhkher",
+  "id": "hjmrR5thYsewq1hnY@jetpack",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MPL 2.0",
+  "keywords": [
+    "jetpack"
+  ],
+  "permissions": {
+    "private-browsing": true,
+    "multiprocess": true,
+    "unsafe-content-script": true
+  },
+  "preferences": [
+    {
+      "description": "Width of panel in pixels",
+      "type": "integer",
+      "name": "width",
+      "value": 1100,
+      "title": "Panel width:"
+    },
+    {
+      "description": "Height of panel in pixels",
+      "type": "integer",
+      "name": "height",
+      "value": 600,
+      "title": "Panel height:"
+    },
+  {
+    "description": "It is recommended to keep this option on to get notified of the recent changes.",
+    "type": "bool",
+    "name": "faqs",
+    "value": true,
+    "title": "Open FAQs page on update"
+  }
+  ]
+}

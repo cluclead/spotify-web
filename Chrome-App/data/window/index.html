@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="fontello.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="toolbar">
+      <span data-value="https://play.spotify.com/" data-cmd="open" class="icon-spotify"></span>
+      <span data-value="https://github.com/cluclead/spotify-web" data-cmd="open" class="icon-bug"></span>
+      <span data-value="http://add0n.com/spotify-web.html" data-cmd="open" class="icon-home"></span>
+      <span data-cmd="refresh" class="icon-refresh"></span>
+    </div>
+    <div id="content">
+      <webview partition="persist:spotifyweb"></webview>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
